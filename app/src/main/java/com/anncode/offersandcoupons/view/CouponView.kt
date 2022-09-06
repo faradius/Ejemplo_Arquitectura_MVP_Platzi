@@ -3,10 +3,10 @@ package com.anncode.offersandcoupons.view
 import com.anncode.offersandcoupons.model.Coupon
 
 interface  CouponView {
-    //VIEW - Muestra la lista de los cupones en la vista
+    //VIEW - Este es el metodo que tendrá la lista de cupones que se implementará en la vista
     fun showCoupons(coupons: ArrayList<Coupon>?)
 
-    //PRESENTER - Le pide información al presenter
+    //PRESENTER - Este es el metodo que obtendrá la lista de cupones y este se los pedirá al presenter
     fun getCoupons()
 
 
